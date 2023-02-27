@@ -20,8 +20,8 @@
 </head>
 
 <body class="bg-field">
-  <main class="container-fluid">
-    <section class="row justify-content-end my-3">
+  <main class="container-fluid content-main">
+    <section class="row justify-content-end">
       <div class="col-2 my-3">
         <button onclick="reset()" class="p-2 btn btn-danger w-100">RESET</button>
       </div>
@@ -29,26 +29,26 @@
     <section class="row justify-content-evenly bg-scoreboard scoreboard-style text-center">
       <div class="col-5 m-4 text-white py-4">
         <h2 class="fs-l">HOME</h2>
-        <h3 id="home-score" class="fs-xl py-2 bg-scoreboard">00</h3>
+        <h3 id="home-score" class="fs-xl py-2 bg-score">00</h3>
       </div>
       <div class="col-5 m-4 text-white py-4">
         <h2 class="fs-l">AWAY</h2>
-        <h3 id="away-score" class="fs-xl py-2 bg-scoreboard">00</h3>
+        <h3 id="away-score" class="fs-xl py-2 bg-score">00</h3>
       </div>
     </section>
 
     <section class="row text-white justify-content-center text-center">
       <div class="col-4 m-5 bg-scoreboard">
-        <h2 onclick="homeAddOne()" class="btn-h2">HOME +1</h2>
+        <h2 onclick="homeAddOne()" class="mb-0 py-3 btn-h2">HOME +1</h2>
       </div>
       <div class="col-4 m-5 bg-scoreboard">
-        <h2 onclick="awayAddOne()" class="btn-h2">AWAY +1</h2>
+        <h2 onclick="awayAddOne()" class="mb-0 py-3 btn-h2">AWAY +1</h2>
       </div>
       <div class="col-4 m-5 bg-scoreboard">
-        <h2 onclick="homeAddThree()" class="btn-h2">HOME +3</h2>
+        <h2 onclick="homeAddThree()" class="mb-0 py-3 btn-h2">HOME +3</h2>
       </div>
       <div class="col-4 m-5 bg-scoreboard">
-        <h2 onclick="awayAddThree()" class="btn-h2">AWAY +3</h2>
+        <h2 onclick="awayAddThree()" class="mb-0 py-3 btn-h2">AWAY +3</h2>
       </div>
     </section>
   </main>

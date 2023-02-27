@@ -1,7 +1,3 @@
-function doSomething() {
-  console.log("WOW!")
-}
-
 let homeScore = 0
 let awayScore = 0
 
