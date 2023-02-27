@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js-scoreboard</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Spline+Sans+Mono:wght@500&display=swap"
+    rel="stylesheet">
+
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-field">
+  <main class="container-fluid">
+    <section class="row justify-content-end my-3">
+      <div class="col-2 my-3">
+        <button onclick="reset()" class="p-2 btn btn-danger w-100">RESET</button>
+      </div>
+    </section>
+    <section class="row justify-content-evenly bg-scoreboard scoreboard-style text-center">
+      <div class="col-5 m-4 text-white py-4">
+        <h2 class="fs-l">HOME</h2>
+        <h3 id="home-score" class="fs-xl py-2 bg-scoreboard">00</h3>
+      </div>
+      <div class="col-5 m-4 text-white py-4">
+        <h2 class="fs-l">AWAY</h2>
+        <h3 id="away-score" class="fs-xl py-2 bg-scoreboard">00</h3>
+      </div>
+    </section>
+
+    <section class="row text-white justify-content-center text-center">
+      <div class="col-4 m-5 bg-scoreboard">
+        <h2 onclick="homeAddOne()" class="btn-h2">HOME +1</h2>
+      </div>
+      <div class="col-4 m-5 bg-scoreboard">
+        <h2 onclick="awayAddOne()" class="btn-h2">AWAY +1</h2>
+      </div>
+      <div class="col-4 m-5 bg-scoreboard">
+        <h2 onclick="homeAddThree()" class="btn-h2">HOME +3</h2>
+      </div>
+      <div class="col-4 m-5 bg-scoreboard">
+        <h2 onclick="awayAddThree()" class="btn-h2">AWAY +3</h2>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

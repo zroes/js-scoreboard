@@ -1,0 +1,39 @@
+.bg-field {
+  background-image: url("https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2223&q=80");
+
+  background-position: 20% 15%;
+}
+
+.bg-scoreboard {
+  background-color: rgba(105, 128, 0, 0.567);
+}
+
+h2 {
+  font-family: 'Spline Sans Mono', monospace;
+  text-shadow: 6px 2px 1px black;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: 'Major Mono Display', monospace;
+  text-shadow: 3px 7px 5px rgba(0, 0, 0, 0.442);
+}
+
+.scoreboard-style {
+  height: 50vh;
+  margin-left: 14vw;
+  margin-right: 14vw;
+}
+
+.fs-xl {
+  font-size: 150pt;
+}
+
+.fs-l {
+  font-size: 48pt;
+}
+
+.btn-h2:hover {
+  cursor: pointer;
+  user-select: none;
+}
