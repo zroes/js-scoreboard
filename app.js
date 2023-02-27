@@ -28,6 +28,10 @@ function reset() {
   drawScore("away-score", awayScore)
 }
 
+/**
+ * @param {string} id
+ * @param {number} value
+ */
 function drawScore(id, value) {
   let score = document.getElementById(id)
   if (value <= 9) {
