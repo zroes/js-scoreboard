@@ -28,12 +28,12 @@
 
 .bg-scoreboard {
   background-color: rgba(105, 128, 0, 0.567);
-  border-radius: 2%;
+  border-radius: 1em;
 }
 
 .bg-score {
   background-color: rgba(223, 255, 142, 0.184);
-  border-radius: 4%;
+  border-radius: 0.1em;
 }
 
 h2 {
